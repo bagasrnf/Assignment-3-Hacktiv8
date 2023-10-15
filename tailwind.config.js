@@ -8,10 +8,10 @@ export default {
     },
     extend: {
       colors: {
-        black: "#1A120B",
-        brown: "#3C2A21",
-        beige: "#D5CEA3",
-        grey: "#E5E5CB",
+        dark: "#113946",
+        brown: "#BCA37F",
+        beige: "#EAD7BB",
+        cream: "#FFF2D8",
       },
       sreens: {
         "2xl": "1320px",

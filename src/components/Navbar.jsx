@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 class Navbar extends Component {
   render() {
     const navItems = [
@@ -11,10 +12,12 @@ class Navbar extends Component {
       { path: "/award", title: "Award" },
     ];
     return (
-      <header className="fixed w-full px-12 z-30 h-24 flex items-center bg-slate-200 ">
+      <header className="fixed w-full px-12 z-30 h-24 flex items-center bg-dark ">
         <div className="flex flex-row items-center w-full justify-between">
-          <Link path={"/"}>
-            <h1 className="text-2xl">Bagas Raihan Nur Fahrezy</h1>
+          <Link to={"/"}>
+            <h1 className="text-2xl text-cream ml-2">
+              Bagas Raihan Nur Fahrezy
+            </h1>
           </Link>
 
           <nav className="flex gap-x-12 font-semibold">
@@ -22,7 +25,7 @@ class Navbar extends Component {
               <Link
                 key={index}
                 to={item.path}
-                className="text-slate-800 hover:text-green-500 transition"
+                className="text-cream hover:text-brown transition"
               >
                 {item.title}
               </Link>

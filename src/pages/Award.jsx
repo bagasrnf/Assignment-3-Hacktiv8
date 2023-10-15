@@ -6,7 +6,9 @@ class Award extends Component {
         <div className="container">
           <div className="w-full px-4">
             <div className="max-w-xl mx-auto text-center mb-16">
-              <h1 className="font-bold text-2xl mb-5 lg:text-3xl">Award</h1>
+              <h1 className="font-bold text-2xl mb-5 lg:text-3xl text-dark">
+                Award
+              </h1>
             </div>
           </div>
 
@@ -19,8 +21,10 @@ class Award extends Component {
                   className="w-full"
                 />
                 <div className="py-8 px-6">
-                  <h3 className="mb-3 text-xl font-semibold">Web Design</h3>
-                  <p className="font-medium text-base text-slate-500">
+                  <h3 className="mb-3 text-xl font-semibold text-dark">
+                    Web Design
+                  </h3>
+                  <p className="font-medium text-base text-brown">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Facere velit repudiandae dolores commodi aliquid ratione qui
                     accusantium perferendis fuga animi.
@@ -36,8 +40,10 @@ class Award extends Component {
                   className="w-full"
                 />
                 <div className="py-8 px-6">
-                  <h3 className="mb-3 text-xl font-semibold">Web Design</h3>
-                  <p className="font-medium text-base text-slate-500">
+                  <h3 className="mb-3 text-xl font-semibold text-dark">
+                    Web Developer
+                  </h3>
+                  <p className="font-medium text-base text-brown">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Facere velit repudiandae dolores commodi aliquid ratione qui
                     accusantium perferendis fuga animi.
@@ -53,8 +59,10 @@ class Award extends Component {
                   className="w-full"
                 />
                 <div className="py-8 px-6">
-                  <h3 className="mb-3 text-xl font-semibold">Web Design</h3>
-                  <p className="font-medium text-base text-slate-500">
+                  <h3 className="mb-3 text-xl font-semibold text-dark">
+                    Photography
+                  </h3>
+                  <p className="font-medium text-base text-brown">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Facere velit repudiandae dolores commodi aliquid ratione qui
                     accusantium perferendis fuga animi.
